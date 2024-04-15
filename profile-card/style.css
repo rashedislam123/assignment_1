@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 80%;
+    margin: auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text-color {
+    color: gray;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.upper-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-elements {
+    width: 40%;
+    box-shadow: 15px 15px 20px rgb(186, 184, 184);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.lower-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.follow-btn {
+    padding: 11px 35px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hire-btn {
+    padding: 11px 35px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-tile {
+    font-size: 70px;
+}
+
+.socal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
